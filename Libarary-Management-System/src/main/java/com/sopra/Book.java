@@ -9,7 +9,10 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "book_111")
 public class Book {
-	//book class
+
+	//This is a main class
+
+	//book clas
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
