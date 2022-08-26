@@ -9,6 +9,8 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "book_111")
 public class Book {
+	//This is a main class
+	
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
